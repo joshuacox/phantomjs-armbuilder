@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install build-essential g++ flex bison gperf ruby perl \
+sudo apt-get -y install build-essential g++ flex bison gperf ruby perl \
   libsqlite3-dev libfontconfig1-dev libicu-dev libfreetype6 libssl-dev \
   libpng-dev libjpeg-dev
 TMP=$(mktemp -d -t tmp.XXXXXXXXXX)
