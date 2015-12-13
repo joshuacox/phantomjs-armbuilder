@@ -1,5 +1,5 @@
 # phantomjs-srcbuilder
-Build phantomjs on arm
+Build phantomjs from source
 
 This one can be curled in, deps are debian based, but this could be modified to run elsewhere
 ```
