@@ -5,5 +5,5 @@ cd $TMP
 git clone git://github.com/ariya/phantomjs.git
 cd phantomjs
 git checkout 2.0
-yes|./build.sh --jobs 2
+yes|./build.sh --jobs 6
 rm -Rf $TMP
