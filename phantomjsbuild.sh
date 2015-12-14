@@ -9,7 +9,7 @@ echo "localphantom version $LOCAL_PHANTOM_VERSION"
 git clone git://github.com/ariya/phantomjs.git
 cd phantomjs
 git checkout 2.0
-yes|./build.sh --jobs 6
+yes|./build.sh --jobs 4
 bin/phantomjs --version
 cp bin/phantomjs /usr/local/bin/
 #rm -Rf $TMP
